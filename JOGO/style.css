@@ -1,0 +1,145 @@
+:root{
+    width: 100vw;
+    height: 100vh;
+    background:url('../JOGO/games.jpg')no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 65.5%;
+    font-family: 'Nova Square',cursive;
+}
+
+h1{
+    font-size: 5.4rem;
+    color: rgb(161, 0, 81);
+    margin-bottom: 5rem;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;        
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;   
+}
+
+.hidden{
+    display: none;   
+}
+
+.btn{
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    background-color: rgb(107, 23, 204);
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow:rgba(108, 23, 204, 0.658);
+    transition: transform 150ms;
+    transform: scale(1.29);
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#highscores-btn{
+    background: rgb(9, 6, 214);
+    color:white;
+}
+
+#highscores-btn:hover{
+    box-shadow: white;
+}
+
+.fa-crown{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+/*END */
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow:hotpink;
+}
+
+input::placeholder{
+    color: rgb(9, 6, 214);
+}
+
+#username{
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;   
+}
+
+#end-text{
+    font-size: 2.4rem;
+    color: brown;
+    text-align: center;
+}
+
+#saveScoreBtn{
+    border: darkmagenta;
+}
+
+.fa-home{
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: maroon;
+}
+
+.Rodape{
+    background:url('../JOGO/Soueu.jpg')no-repeat center;
+}
